@@ -36,6 +36,17 @@ header .options a img{
     width: 32px;
 }
 
+main .container .searcher-buttons button {
+    position: relative;
+    display: inline-block;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid;
+}
 
 .dots-logo {
     display: inline-block;
@@ -53,6 +64,7 @@ header .options a img{
     background-image: url(assets/search-logo.svg);
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
 }
 
 .micro-logo {
@@ -62,6 +74,7 @@ header .options a img{
     background-image: url(assets/micro-logo.svg);
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
 }
 
 .camera-logo {
@@ -71,6 +84,7 @@ header .options a img{
     background-image: url(assets/camera-logo.svg);
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
 }
 
 main {
